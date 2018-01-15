@@ -7,7 +7,7 @@ function takeANumber(katzDeliLine, newPeople){
 
 function nowServing(katzDeliLine){
   if (katzDeliLine === []){
-    return "The line is currently empty."
+    return 'There is nobody waiting to be served!';
   }
   else
     return `Currently serving ${katzDeliLine.shift()}.`
