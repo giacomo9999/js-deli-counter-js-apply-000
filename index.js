@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, newPeople){
 }
 
 function nowServing(katzDeliLine){
-  if katzDeliLine === []{
+  if (katzDeliLine === []){
     return "The line is currently empty."
   }
   else
