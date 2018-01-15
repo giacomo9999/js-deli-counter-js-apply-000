@@ -20,9 +20,8 @@ function currentLine(katzDeliLine){
   else {
     var lineOut = "The line is currently: "
     for (var loop = 0; loop <= katzDeliLine.length-1; loop++){
-        lineOut += String(loop) + katzDeliLine[loop] + ", ";
+        lineOut += String(loop+1) +". "+ katzDeliLine[loop] + ", ";
     }
   }
-
   return lineOut;
 }
