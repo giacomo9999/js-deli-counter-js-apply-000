@@ -22,7 +22,7 @@ function currentLine(katzDeliLine){
     for (var loop = 0; loop <= katzDeliLine.length-1; loop++){
         lineOut += String(loop+1) +". "+ katzDeliLine[loop] + ", ";
     }
-    lineOut = lineOut.slice(0,lineOut.length-1);
+    lineOut = lineOut.slice(0,lineOut.length-2);
   }
   return lineOut
 }
