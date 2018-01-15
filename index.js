@@ -23,5 +23,5 @@ function currentLine(katzDeliLine){
         lineOut += String(loop+1) +". "+ katzDeliLine[loop] + ", ";
     }
   }
-  return lineOut;
+  return lineOut.slice(0,lineOut.length-1);
 }
