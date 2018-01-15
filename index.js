@@ -24,5 +24,5 @@ function currentLine(katzDeliLine){
     }
     lineOut = lineOut.slice(0,lineOut.length-2);
   }
-  return lineOut
+  return lineOut;
 }
